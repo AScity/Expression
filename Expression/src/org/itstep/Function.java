@@ -6,7 +6,7 @@ public class Function {
 	
 	public int getFunction() {
 		Factorial factorial = new Factorial();
-		int result =(x + 2)*factorial.getFactorial(x);
+		int result =(x + 1)*factorial.getFactorial(x);
 		return result;
 	}
 }
